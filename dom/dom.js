@@ -27,13 +27,12 @@ class Node{
 class Text extends Node{
 
 }
-
-
 class PseudoElement extends Text{
     constructor(){
         
     }
 }
+
 class ContainerNode extends Node{
     _before = null
     _after = null
